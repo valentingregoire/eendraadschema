@@ -1,0 +1,48 @@
+<project folioSheetQuantity="0" version="0.70" title="">
+    <properties>
+        <property name="saveddate" show="1">2021-02-22</property>
+        <property name="savedtime" show="1">17:42</property>
+        <property name="savedfilepath" show="1">C:/Users/valen/Documents/workspaces/eendraadschema/situatieschema.qet</property>
+        <property name="savedfilename" show="1">situatieschema</property>
+    </properties>
+    <newdiagrams>
+        <border displaycols="true" rowsize="80" cols="17" colsize="60" rows="8" displayrows="true"/>
+        <inset date="null" indexrev="" version="" auto_page_num="" filename="" locmach="" displayAt="bottom" folio="%id/%total" title="" author="" plant=""/>
+        <conductors dash-size="2" color2="#000000" function="" numsize="7" tension-protocol="" bicolor="false" onetextperfolio="0" vertirotatetext="270" num="_" vertical-alignment="AlignRight" condsize="1" type="multi" horizrotatetext="0" formula="" displaytext="1" horizontal-alignment="AlignBottom"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" powerprefix="" master_label="%f-%l%c" type="coil" switchprefix="" snapto="label" offset="40" showpowerctc="false"/>
+            <xref slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" powerprefix="" master_label="%f-%l%c" type="protection" switchprefix="" snapto="label" offset="0" showpowerctc="false"/>
+            <xref slave_label="(%f-%l%c)" delayprefix="" displayhas="cross" powerprefix="" master_label="%f-%l%c" type="commutator" switchprefix="" snapto="label" offset="0" showpowerctc="false"/>
+        </xrefs>
+        <conductors_autonums freeze_new_conductors="false" current_autonum=""/>
+        <folio_autonums/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
+    </newdiagrams>
+    <diagram author="" auto_page_num="" order="1" plant="" filename="" indexrev="" colsize="60" freezeNewConductor="false" date="null" displaycols="true" height="660" rowsize="80" folio="%id/%total" title="" displayrows="true" locmach="" cols="17" rows="8" version="0.70+a375424c0d79751d3" displayAt="bottom" freezeNewElement="false">
+        <defaultconductor dash-size="2" color2="#000000" function="" numsize="7" tension-protocol="" bicolor="false" onetextperfolio="0" vertirotatetext="270" num="_" vertical-alignment="AlignRight" condsize="1" type="multi" horizrotatetext="0" formula="" displaytext="1" horizontal-alignment="AlignBottom"/>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="en">Imported elements</name>
+            </names>
+        </category>
+    </collection>
+</project>

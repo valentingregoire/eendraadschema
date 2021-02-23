@@ -1,0 +1,33 @@
+<definition link_type="simple" hotspot_y="42" width="70" hotspot_x="46" type="element" version="0.60" height="60" orientation="dyyy">
+    <uuid uuid="{2941eca1-b92e-4ef7-84bc-f94498d8fb15}"/>
+    <names>
+        <name lang="en">Single pole switch with indicator light</name>
+        <name lang="nl">Enkelpolige schakelaar met signalisatielamp</name>
+        <name lang="fr">Interrupteur unipolaire à lampe de signalisation</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <circle y="-10" x="-40" antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-10" x="-10" antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-10" length1="1.5" y1="-36" end1="none" end2="none" length2="1.5" antialias="false" x1="13" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input size="9" tagg="label" y="20" text="" rotate="true" x="-10"/>
+        <line y2="-33.31" length1="1.5" y1="-36" end1="none" end2="none" length2="1.5" antialias="false" x1="13" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="7" length1="1.5" y1="-7" end1="none" end2="none" length2="1.5" antialias="false" x1="-37" x2="-23" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-7" length1="1.5" y1="7" end1="none" end2="none" length2="1.5" antialias="false" x1="-37" x2="-23" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="0" x="-40" orientation="w"/>
+        <terminal y="10" x="0" orientation="s"/>
+        <terminal y="0" x="10" orientation="e"/>
+        <terminal y="-10" x="0" orientation="n"/>
+        <terminal y="-10" x="-30" orientation="n"/>
+        <terminal y="10" x="-30" orientation="s"/>
+    </description>
+</definition>

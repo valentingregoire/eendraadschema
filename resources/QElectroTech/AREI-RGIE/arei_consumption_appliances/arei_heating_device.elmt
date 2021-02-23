@@ -1,0 +1,34 @@
+<definition width="70" link_type="simple" height="40" hotspot_y="19" orientation="dyyy" hotspot_x="34" version="0.60" type="element">
+    <uuid uuid="{c725ef5a-020f-4ef4-b37f-4ed6ade9b808}"/>
+    <names>
+        <name lang="fr">Appareil de chauffage</name>
+        <name lang="nl">Verwarmingstoestel</name>
+        <name lang="en">Heating device</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <line x1="5.4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="5.4" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="21.6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="21.6" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="-21.6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="-21.6" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="10.8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="10.8" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="0" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <input rotate="true" y="25" tagg="label" text="" x="-10" size="9"/>
+        <line x1="-5.4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="-5.4" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <rect width="54" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-15" x="-27"/>
+        <line x1="-16.2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="-16.2" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="-10.8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="-10.8" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <line x1="16.2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="15" x2="16.2" end1="none" end2="none" y1="-15" length2="1.5" length1="1.5"/>
+        <terminal y="15" orientation="s" x="0"/>
+        <terminal y="-15" orientation="n" x="0"/>
+        <terminal y="0" orientation="e" x="27"/>
+        <terminal y="0" orientation="w" x="-27"/>
+    </description>
+</definition>

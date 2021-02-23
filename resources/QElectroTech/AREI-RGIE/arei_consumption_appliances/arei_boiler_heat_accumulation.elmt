@@ -1,0 +1,31 @@
+<definition width="50" link_type="simple" height="50" hotspot_y="24" orientation="dyyy" hotspot_x="24" version="0.60" type="element">
+    <uuid uuid="{e840d811-f1e4-47bc-abc6-99fd46667049}"/>
+    <names>
+        <name lang="fr">Chauffe-eau à accumulation</name>
+        <name lang="nl">Boiler met accummilatie</name>
+        <name lang="en">Boiler with heat accumulation</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <line x1="8.6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="9.48" x2="8.6" end1="none" end2="none" y1="-9.32" length2="1.5" length1="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-17" x="-17" diameter="34"/>
+        <line x1="-8.6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="9.48" x2="-8.6" end1="none" end2="none" y1="-9.32" length2="1.5" length1="1.5"/>
+        <line x1="-4.6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="12" x2="-4.6" end1="none" end2="none" y1="-11.89" length2="1.5" length1="1.5"/>
+        <input rotate="true" y="25" tagg="label" text="" x="-10" size="9"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-13" x="-13" diameter="26"/>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="13" x2="0" end1="none" end2="none" y1="-13" length2="1.5" length1="1.5"/>
+        <line x1="4.33" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="12" x2="4.33" end1="none" end2="none" y1="-11.89" length2="1.5" length1="1.5"/>
+        <terminal y="17" orientation="s" x="0"/>
+        <terminal y="0" orientation="w" x="-17"/>
+        <terminal y="-17" orientation="n" x="0"/>
+        <terminal y="0" orientation="e" x="17"/>
+    </description>
+</definition>

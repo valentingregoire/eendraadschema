@@ -1,0 +1,31 @@
+<definition link_type="simple" hotspot_y="24" width="70" hotspot_x="50" type="element" version="0.60" height="50" orientation="dyyy">
+    <uuid uuid="{a5038089-4b0b-4e51-89a5-622cf237d35f}"/>
+    <names>
+        <name lang="en">Wall outlet with double pole switch</name>
+        <name lang="nl">Stopcontact met tweepolige schakelaar</name>
+        <name lang="fr">Socle de prise de courant avec interrupteur bipolaire</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <line y2="16.75" length1="1.5" y1="8.9" end1="none" end2="none" length2="1.5" antialias="false" x1="-36.82" x2="-33.67" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc y="-15" angle="90" start="180" width="30" x="-15" antialias="true" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc y="-15" angle="90" start="90" width="30" x="-15" antialias="true" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input size="9" tagg="label" y="25" text="" rotate="true" x="-11"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="-24" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="18" length1="1.5" y1="-18" end1="none" end2="none" length2="1.5" antialias="false" x1="-15" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-15" length1="1.5" y1="-18" end1="none" end2="none" length2="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="18" length1="1.5" y1="15" end1="none" end2="none" length2="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="12" length1="1.5" y1="0.188748" end1="none" end2="none" length2="1.5" antialias="false" x1="-15.1268" x2="-45" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="20" length1="1.5" y1="12" end1="none" end2="none" length2="1.5" antialias="false" x1="-45" x2="-41.89" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="0" x="-15" orientation="e"/>
+        <terminal y="0" x="-24" orientation="w"/>
+    </description>
+</definition>

@@ -1,0 +1,41 @@
+<definition link_type="simple" hotspot_y="61" width="120" hotspot_x="60" type="element" version="0.60" height="90" orientation="dyyy">
+    <uuid uuid="{49446d0e-08b3-4c7c-9eb2-721c22bf9d24}"/>
+    <names>
+        <name lang="en">Solar panel</name>
+        <name lang="nl">Zonnepaneel</name>
+        <name lang="fr">Panneaux solaires</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <line y2="-34" length1="1.5" y1="-30" end1="none" end2="none" length2="1.5" antialias="false" x1="10" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="13" length1="1.5" y1="-11" end1="none" end2="none" length2="1.5" antialias="false" x1="8" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-40" length1="1.5" y1="-40" end1="none" end2="none" length2="1.5" antialias="false" x1="8" x2="14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-34" length1="1.5" y1="-30" end1="none" end2="none" length2="1.5" antialias="false" x1="-10" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-50" length1="1.5" y1="-46" end1="none" end2="none" length2="1.5" antialias="false" x1="6" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-48" length1="1.5" y1="-54" end1="none" end2="none" length2="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-50" length1="1.5" y1="-46" end1="none" end2="none" length2="1.5" antialias="false" x1="-6" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-40" length1="1.5" y1="-40" end1="none" end2="none" length2="1.5" antialias="false" x1="-8" x2="-14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="20" length1="1.5" y1="20" end1="none" end2="none" length2="1.5" antialias="false" x1="-55" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="13" length1="1.5" y1="-11" end1="none" end2="none" length2="1.5" antialias="false" x1="28" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="13" length1="1.5" y1="-11" end1="none" end2="none" length2="1.5" antialias="false" x1="-12" x2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-20" length1="1.5" y1="-20" end1="none" end2="none" length2="1.5" antialias="false" x1="-25" x2="55" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="19.8012" length1="1.5" y1="-19.4028" end1="none" end2="none" length2="1.5" antialias="false" x1="54.8007" x2="25.3998" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="19.3997" length1="1.5" y1="-19.7977" end1="none" end2="none" length2="1.5" antialias="false" x1="-25.3998" x2="-54.7972" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="-35" x2="35" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input size="9" tagg="label" y="30" text="" rotate="true" x="-23"/>
+        <circle y="-46" x="-6" antialias="false" diameter="12" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-26" length1="1.5" y1="-32" end1="none" end2="none" length2="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input size="9" tagg="none" y="-30" text="x16" rotate="true" x="-50"/>
+        <terminal y="20" x="0" orientation="s"/>
+        <terminal y="0" x="-40" orientation="w"/>
+        <terminal y="0" x="40" orientation="e"/>
+    </description>
+</definition>

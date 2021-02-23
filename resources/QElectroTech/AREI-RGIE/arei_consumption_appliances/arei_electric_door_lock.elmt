@@ -1,0 +1,36 @@
+<definition width="80" link_type="simple" height="30" hotspot_y="14" orientation="dyyy" hotspot_x="33" version="0.60" type="element">
+    <uuid uuid="{88c2a4c0-ecce-459a-9aad-4f2a1da61c8f}"/>
+    <names>
+        <name lang="fr">Gâche électrique de porte</name>
+        <name lang="nl">Elektrisch deurslot</name>
+        <name lang="en">Electric door lock</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <line x1="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="2" x2="25" end1="none" end2="none" y1="2" length2="1.5" length1="1.5"/>
+        <line x1="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="2" x2="-16" end1="none" end2="none" y1="2" length2="1.5" length1="1.5"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="-8" start="90"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="8" start="90"/>
+        <input rotate="true" y="20" tagg="label" text="" x="-8" size="9"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="0" start="90"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="-16" start="90"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="-8" start="0"/>
+        <rect width="50" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-10" x="-25"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="-16" start="0"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="0" start="0"/>
+        <arc width="8" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-3" angle="90" x="8" start="0"/>
+        <line x1="25.3877" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="9.40706" x2="39.7891" end1="none" end2="none" y1="-9.80503" length2="1.5" length1="1.5"/>
+        <line x1="24" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="10" x2="40" end1="none" end2="none" y1="10" length2="1.5" length1="1.5"/>
+        <terminal y="-10" orientation="n" x="0"/>
+        <terminal y="10" orientation="s" x="0"/>
+        <terminal y="0" orientation="w" x="-25"/>
+    </description>
+</definition>

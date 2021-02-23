@@ -1,0 +1,32 @@
+<definition link_type="simple" hotspot_y="19" width="60" hotspot_x="29" type="element" version="0.60" height="40" orientation="dyyy">
+    <uuid uuid="{0bef9d7f-996b-45b6-ad08-4c035b8f481f}"/>
+    <names>
+        <name lang="en">Time switch</name>
+        <name lang="nl">Schakelklok</name>
+        <name lang="fr">Interrupteur horaire</name>
+    </names>
+    <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+    <description>
+        <rect y="-11" width="48" x="-24" antialias="false" height="22" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input size="9" tagg="label" y="20" text="" rotate="true" x="-10"/>
+        <circle y="-5.5" x="-19.5" antialias="false" diameter="11" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="-8" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="-3.4" end1="none" end2="none" length2="1.5" antialias="false" x1="-14" x2="-14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="-14" x2="-11.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" length1="1.5" y1="0" end1="none" end2="none" length2="1.5" antialias="false" x1="19" x2="14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-0.135319" length1="1.5" y1="-5" end1="none" end2="none" length2="1.5" antialias="false" x1="0" x2="13.1936" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-0.5" x="-14.5" antialias="false" diameter="1" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal y="11" x="0" orientation="s"/>
+        <terminal y="0" x="24" orientation="e"/>
+        <terminal y="0" x="-24" orientation="w"/>
+        <terminal y="-11" x="0" orientation="n"/>
+    </description>
+</definition>
