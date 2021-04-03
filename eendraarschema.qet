@@ -1,26 +1,194 @@
-<project folioSheetQuantity="0" version="0.70" title="">
+<project version="0.80" title="eendraarschema">
     <properties>
-        <property show="1" name="saveddate">22/02/2021</property>
+        <property show="1" name="saveddate">21/03/21</property>
+        <property show="1" name="saveddate-us">2021-03-21</property>
+        <property show="1" name="savedtime">19:51</property>
+        <property show="1" name="savedfilepath">/home/valentin/workspaces/eendraadschema/eendraarschema.qet</property>
         <property show="1" name="savedfilename">eendraarschema</property>
-        <property show="1" name="savedfilepath">C:/Users/valen/Documents/workspaces/eendraadschema/eendraarschema.qet</property>
-        <property show="1" name="savedtime">11:42</property>
+        <property show="1" name="saveddate-eu">21-03-2021</property>
     </properties>
     <newdiagrams>
-        <border displayrows="true" rowsize="80" cols="17" displaycols="true" colsize="60" rows="8"/>
-        <inset indexrev="" locmach="" version="" date="null" title="" author="" filename="" plant="" folio="%id/%total" displayAt="bottom" auto_page_num=""/>
-        <conductors type="multi" bicolor="false" formula="" onetextperfolio="0" tension-protocol="" color2="#000000" num="_" function="" condsize="1" displaytext="1" numsize="7" horizrotatetext="0" vertirotatetext="270" vertical-alignment="AlignRight" dash-size="2" horizontal-alignment="AlignBottom"/>
+        <border colsize="60" displayrows="true" rowsize="80" rows="8" cols="17" displaycols="true"/>
+        <inset version="" displayAt="bottom" date="null" auto_page_num="" locmach="" author="" title="" indexrev="" folio="%id/%total" filename="" plant=""/>
+        <conductors tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" function="" type="multi" horizontal-alignment="AlignBottom" cable="" conductor_color="" text_color="#000000" bicolor="false" displaytext="1" numsize="7" bus="" color2="#000000" formula="" condsize="1" onetextperfolio="0" conductor_section=""/>
         <report label="%f-%l%c"/>
         <xrefs>
-            <xref type="protection" displayhas="cross" master_label="%f-%l%c" showpowerctc="false" delayprefix="" offset="0" switchprefix="" snapto="label" slave_label="(%f-%l%c)" powerprefix=""/>
-            <xref type="coil" displayhas="cross" master_label="%f-%l%c" showpowerctc="false" delayprefix="" offset="40" switchprefix="" snapto="label" slave_label="(%f-%l%c)" powerprefix=""/>
-            <xref type="commutator" displayhas="cross" master_label="%f-%l%c" showpowerctc="false" delayprefix="" offset="0" switchprefix="" snapto="label" slave_label="(%f-%l%c)" powerprefix=""/>
+            <xref delayprefix="" master_label="%f-%l%c" xrefpos="AlignBottom" displayhas="cross" offset="0" powerprefix="" slave_label="(%f-%l%c)" showpowerctc="false" snapto="label" switchprefix="" type="protection"/>
+            <xref delayprefix="" master_label="%f-%l%c" xrefpos="AlignBottom" displayhas="cross" offset="40" powerprefix="" slave_label="(%f-%l%c)" showpowerctc="false" snapto="label" switchprefix="" type="coil"/>
+            <xref delayprefix="" master_label="%f-%l%c" xrefpos="AlignBottom" displayhas="cross" offset="0" powerprefix="" slave_label="(%f-%l%c)" showpowerctc="false" snapto="label" switchprefix="" type="commutator"/>
         </xrefs>
-        <conductors_autonums freeze_new_conductors="false" current_autonum=""/>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
         <folio_autonums/>
-        <element_autonums freeze_new_elements="false" current_autonum=""/>
+        <element_autonums current_autonum="" freeze_new_elements="false"/>
     </newdiagrams>
-    <diagram auto_page_num="" title="" height="660" locmach="" order="1" date="null" displaycols="true" displayAt="bottom" plant="" filename="" displayrows="true" indexrev="" freezeNewElement="false" freezeNewConductor="false" author="" rows="8" cols="17" colsize="60" version="0.70+a375424c0d79751d3" rowsize="80" folio="%id/%total">
-        <defaultconductor type="multi" bicolor="false" formula="" onetextperfolio="0" tension-protocol="" color2="#000000" num="_" function="" condsize="1" displaytext="1" numsize="7" horizrotatetext="0" vertirotatetext="270" vertical-alignment="AlignRight" dash-size="2" horizontal-alignment="AlignBottom"/>
+    <diagram order="1" rowsize="80" displayAt="bottom" filename="" date="null" title="Eendraadschema" indexrev="" folio="%id/%total" displaycols="true" colsize="60" plant="" rows="8" displayrows="true" auto_page_num="Create an auto folio numbering" locmach="" version="0.80+664537c17" author="Valentin Grégoire" freezeNewElement="false" cols="17" freezeNewConductor="false" height="660">
+        <defaultconductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" function="" type="multi" horizontal-alignment="AlignBottom" cable="" conductor_color="" text_color="#000000" bicolor="false" displaytext="1" numsize="7" bus="" color2="#000000" formula="" condsize="1" onetextperfolio="0" conductor_section=""/>
+        <elements>
+            <element uuid="{f3adc0f8-e57c-4167-853f-9e8d766d2b3c}" x="50" y="530" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_electrical_devices/arei_main_earth_terminal.elmt">
+                <terminals>
+                    <terminal x="0" y="-56" number="_" name="_" orientation="0" nameHidden="0" id="0"/>
+                    <terminal x="0" y="56" number="_" name="_" orientation="2" nameHidden="0" id="1"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="14.5" uuid="{74df88d0-49bc-42aa-a2ed-ad08c07078b3}" keep_visual_rotation="true" y="38" rotation="270" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,8,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{df46f8de-375a-45b9-9692-c9a8d764fa7e}" x="50" y="640" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_protection_devices/arei_earth_electrode.elmt">
+                <terminals>
+                    <terminal x="0" y="-6" number="_" name="_" orientation="0" nameHidden="0" id="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-24" uuid="{351ca63b-4cc8-472f-b9fb-60f7b0387c1d}" keep_visual_rotation="true" y="16" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{43dc41b7-ee9c-4b67-9cc4-cea64f303c08}" x="310" y="630" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_general/arei_alternating_current_general.elmt">
+                <terminals>
+                    <terminal x="0" y="4" number="_" name="_" orientation="0" nameHidden="0" id="3"/>
+                    <terminal x="-4" y="0" number="_" name="_" orientation="1" nameHidden="0" id="4"/>
+                    <terminal x="0" y="-4" number="_" name="_" orientation="2" nameHidden="0" id="5"/>
+                    <terminal x="4" y="0" number="_" name="_" orientation="3" nameHidden="0" id="6"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">50 Hz 400/230 V</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-14" uuid="{1abeb262-8ab7-4308-8fe7-569b3487a2c5}" keep_visual_rotation="true" y="10" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text>50 Hz 400/230 V</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{6947bfbf-9642-4f80-aa73-4b9dfc75d8df}" x="600" y="500" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_protection_devices/arei_circuit_breaker.elmt">
+                <terminals>
+                    <terminal x="0" y="-26" number="_" name="_" orientation="0" nameHidden="0" id="7"/>
+                    <terminal x="0" y="26" number="_" name="_" orientation="2" nameHidden="0" id="8"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">300 mA</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-19" uuid="{54154684-c89d-4c26-a2b4-70951342543a}" keep_visual_rotation="true" y="17" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>tension-protocol</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text x="5" uuid="{7be57b53-97a2-4f24-b6d9-d162e1321189}" keep_visual_rotation="true" y="-1" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text>300 mA</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text x="-39" uuid="{a1dd8ea2-fa46-453f-8cd9-bd486478b715}" keep_visual_rotation="true" y="-8" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>tension-protocol</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text x="4.6" uuid="{390ac6fa-723b-4862-9c7f-183f92c3090f}" keep_visual_rotation="true" y="-15" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>tension-protocol</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{9f1fd2ef-6a2e-4ad7-bc53-0906dff78b9e}" x="70" y="430" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_protection_devices/arei_fuse.elmt">
+                <terminals>
+                    <terminal x="0" y="-26" number="_" name="_" orientation="0" nameHidden="0" id="9"/>
+                    <terminal x="0" y="26" number="_" name="_" orientation="2" nameHidden="0" id="10"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="label">10 A</elementInformation>
+                    <elementInformation show="1" name="formula">10 A</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-39" uuid="{edaff66b-3277-4392-b901-41980f0fd669}" keep_visual_rotation="true" y="-9" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text>10 A</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{493cc680-c74a-4d77-a662-5c882ef7e950}" x="480" y="630" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_consumption_appliances/arei_kwh_meter.elmt">
+                <terminals>
+                    <terminal x="0" y="-16" number="_" name="_" orientation="0" nameHidden="0" id="11"/>
+                    <terminal x="-16" y="0" number="_" name="_" orientation="3" nameHidden="0" id="12"/>
+                    <terminal x="16" y="0" number="_" name="_" orientation="1" nameHidden="0" id="13"/>
+                    <terminal x="0" y="16" number="_" name="_" orientation="2" nameHidden="0" id="14"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-10" uuid="{f0c725d9-e4aa-4794-bb23-47bef921c1d6}" keep_visual_rotation="true" y="22" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{722d3900-7319-406e-93c5-304a20c482f4}" x="600" y="570" orientation="0" z="10" prefix="" freezeLabel="false" type="embed://import/AREI-RGIE/arei_protection_devices/arei_residual_current_breaker.elmt">
+                <terminals>
+                    <terminal x="0" y="-26" number="_" name="_" orientation="0" nameHidden="0" id="15"/>
+                    <terminal x="0" y="26" number="_" name="_" orientation="2" nameHidden="0" id="16"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text x="-39" uuid="{3f1aab02-4fe4-44c3-9c8e-8782fdef78e8}" keep_visual_rotation="true" y="-8" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>tension-protocol</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text x="5" uuid="{a4edb6f0-a545-492e-934c-77e47e07e492}" keep_visual_rotation="true" y="-9" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text x="-19" uuid="{c47f0a26-9daa-4a4f-bddc-62ad9e3e4698}" keep_visual_rotation="true" y="17" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>tension-protocol</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" terminal1="2" function="" type="multi" horizontal-alignment="AlignBottom" cable="" y="290" terminal2="1" conductor_color="" text_color="#000000" x="-190" bicolor="false" numsize="7" displaytext="1" bus="" color2="#000000" formula="" condsize="1" freezeLabel="false" conductor_section="" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" terminal1="0" function="" type="multi" horizontal-alignment="AlignBottom" cable="" y="290" terminal2="7" conductor_color="" text_color="#000000" x="-10" bicolor="false" numsize="7" displaytext="1" bus="" color2="#000000" formula="" condsize="1" freezeLabel="false" conductor_section="" onetextperfolio="0">
+                <segment length="-9" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <segment length="550" orientation="horizontal"/>
+                <segment length="9" orientation="vertical"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" terminal1="4" function="" type="multi" horizontal-alignment="AlignBottom" cable="" y="290" terminal2="12" conductor_color="" text_color="#000000" x="-10" bicolor="false" numsize="7" displaytext="1" bus="" color2="#000000" formula="" condsize="1" freezeLabel="false" conductor_section="" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" terminal1="13" function="" type="multi" horizontal-alignment="AlignBottom" cable="" y="290" terminal2="16" conductor_color="" text_color="#000000" x="-10" bicolor="false" numsize="7" displaytext="1" bus="" color2="#000000" formula="" condsize="1" freezeLabel="false" conductor_section="" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor tension_protocol="" vertical-alignment="AlignRight" num="_" dash-size="2" horizrotatetext="0" vertirotatetext="270" terminal1="8" function="" type="multi" horizontal-alignment="AlignBottom" cable="" y="290" terminal2="15" conductor_color="" text_color="#000000" x="-10" bicolor="false" numsize="7" displaytext="1" bus="" color2="#000000" formula="" condsize="1" freezeLabel="false" conductor_section="" onetextperfolio="0">
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
     </diagram>
     <collection>
         <category name="import">
@@ -43,6 +211,314 @@
                 <name lang="ru">Импортированные элементы</name>
                 <name lang="sl">Uvoženi elementi</name>
             </names>
+            <category name="AREI-RGIE">
+                <names>
+                    <name lang="nl">AREI</name>
+                    <name lang="fr">RGIE</name>
+                    <name lang="en">Belgian Domestic Electrical Symbols</name>
+                </names>
+                <category name="arei_wires">
+                    <names>
+                        <name lang="nl">Electrische leidingen</name>
+                        <name lang="fr">Canalisations</name>
+                        <name lang="en">Wires</name>
+                    </names>
+                    <element name="arei_amount_of_cables.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="64" width="30" height="130" orientation="dyyy" hotspot_x="14" type="element">
+                            <uuid uuid="{659b949f-6d28-439b-af01-5294c53e13dc}"/>
+                            <names>
+                                <name lang="en">Amount of cables (n)</name>
+                                <name lang="nl">Aantal leidingen (n)</name>
+                                <name lang="fr">Nombre des canalisations (n)</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="60" x1="0" end2="none" length1="1.5" y1="-60" antialias="false"/>
+                                <input size="8" x="10" rotate="true" tagg="label" text="" y="38" rotation="270"/>
+                                <line x2="11" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="-10" end2="none" length1="1.5" y1="0" antialias="false"/>
+                                <input size="9" x="-13" rotate="true" tagg="none" text="n" y="-1" rotation="270"/>
+                                <terminal x="0" y="-60" orientation="n"/>
+                                <terminal x="0" y="60" orientation="s"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+                <category name="arei_electrical_devices">
+                    <names>
+                        <name lang="en">Electrical devices</name>
+                        <name lang="fr">Appareillages électriques</name>
+                        <name lang="nl">Electrische toestellen</name>
+                    </names>
+                    <element name="arei_main_earth_terminal.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="64" width="30" height="130" orientation="dyyy" hotspot_x="15" type="element">
+                            <uuid uuid="{c4e64b64-fb3c-4a77-b9af-bdfc29a836ad}"/>
+                            <names>
+                                <name lang="en">Main earth terminal</name>
+                                <name lang="nl">Aardingsstrip</name>
+                                <name lang="fr">Barette de terre</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="60" x1="0" end2="none" length1="1.5" y1="27" antialias="false"/>
+                                <line x2="10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" x1="-10" end2="none" length1="1.5" y1="-30" antialias="false"/>
+                                <line x2="10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="27" x1="-10" end2="none" length1="1.5" y1="27" antialias="false"/>
+                                <line x2="10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="-10" end2="none" length1="1.5" y1="20" antialias="false"/>
+                                <line x2="10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-37" x1="-10" end2="none" length1="1.5" y1="-37" antialias="false"/>
+                                <input size="8" x="22" rotate="true" tagg="label" text="" y="38" rotation="270"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" x1="0" end2="none" length1="1.5" y1="-30" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-37" x1="0" end2="none" length1="1.5" y1="-60" antialias="false"/>
+                                <terminal x="0" y="60" orientation="s"/>
+                                <terminal x="0" y="-60" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+                <category name="arei_general">
+                    <names>
+                        <name lang="en">General</name>
+                        <name lang="fr">Généralités</name>
+                        <name lang="nl">Algemeenheden</name>
+                    </names>
+                    <element name="arei_general_existing_electrical_installation_nl.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="24" width="90" height="50" orientation="dyyy" hotspot_x="44" type="element">
+                            <uuid uuid="{89f3cb96-beff-4cd4-9b61-a0692ca4b169}"/>
+                            <names>
+                                <name lang="nl">Bestaande installatie [NL]</name>
+                                <name lang="fr">Installation existants [NL]</name>
+                                <name lang="en">Existing electrical installation [NL]</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <rect x="-40" width="80" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" height="40" antialias="false"/>
+                                <text size="9" x="-38" text="INSTALLATIE" y="12"/>
+                                <text size="9" x="-34" text="BESTAANDE" y="-4"/>
+                                <input size="9" x="-44" rotate="true" tagg="label" text="" y="27"/>
+                                <terminal x="0" y="20" orientation="s"/>
+                                <terminal x="-40" y="0" orientation="w"/>
+                                <terminal x="0" y="-20" orientation="n"/>
+                                <terminal x="40" y="0" orientation="e"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="arei_alternating_current_general.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="15" width="30" height="30" orientation="dyyy" hotspot_x="15" type="element">
+                            <uuid uuid="{49c55501-bb3a-4815-892a-af20ae3c4933}"/>
+                            <names>
+                                <name lang="en">Alternating current</name>
+                                <name lang="nl">Wisselstroom algemeen</name>
+                                <name lang="fr">Courant alternatif, symbole général</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <arc angle="90" x="-10" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" height="20" start="90" antialias="true"/>
+                                <arc angle="90" x="-10" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" height="20" start="0" antialias="true"/>
+                                <arc angle="90" x="0" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-8" height="18" start="180" antialias="true"/>
+                                <arc angle="90" x="0" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" height="20" start="270" antialias="true"/>
+                                <input size="9" x="-14" rotate="true" tagg="label" text="" y="18"/>
+                                <terminal x="0" y="0" orientation="n"/>
+                                <terminal x="0" y="0" orientation="e"/>
+                                <terminal x="0" y="0" orientation="s"/>
+                                <terminal x="0" y="0" orientation="w"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+                <category name="arei_protection_devices">
+                    <names>
+                        <name lang="en">Protection devices</name>
+                        <name lang="fr">Dispositifs de protection</name>
+                        <name lang="nl">Beschermingstoestellen</name>
+                    </names>
+                    <element name="arei_earth_electrode.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="16" width="30" height="30" orientation="dyyy" hotspot_x="15" type="element">
+                            <uuid uuid="{960f8cfe-4863-4bf4-a7af-8383835821f0}"/>
+                            <names>
+                                <name lang="en">Earth electrode</name>
+                                <name lang="nl">Aardinrichting</name>
+                                <name lang="fr">Prise de terre, mise à la terre</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <line x2="10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="-10" end2="none" length1="1.5" y1="0" antialias="false"/>
+                                <line x2="6" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x1="-6" end2="none" length1="1.5" y1="5" antialias="false"/>
+                                <line x2="3" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x1="-3" end2="none" length1="1.5" y1="10" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-1" x1="0" end2="none" length1="1.5" y1="-10" antialias="false"/>
+                                <input size="9" x="-24" rotate="true" tagg="label" text="" y="24"/>
+                                <terminal x="0" y="-10" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="arei_residual_current_breaker.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="34" width="40" height="70" orientation="dyyy" hotspot_x="31" type="element">
+                            <uuid uuid="{7b0e8869-eb58-412e-afa3-9763625686b2}"/>
+                            <names>
+                                <name lang="en">Circuit breaker </name>
+                                <name lang="nl">Automaat</name>
+                                <name lang="fr">Interrupteur automatique ou disjoncteur</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" x1="0" end2="none" length1="1.5" y1="-30" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x1="0" end2="none" length1="1.5" y1="20" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="-20" end2="none" length1="1.5" y1="-20" antialias="false"/>
+                                <polygon x3="-24" x6="-16" x2="-20" x4="-20" y5="-12" y6="-12" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-10" x1="-16" x5="-16" y4="-20" y1="-12" y3="-18" antialias="false"/>
+                                <line x2="-4" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3" x1="-15" end2="none" length1="1.5" y1="3" antialias="false"/>
+                                <input size="9" x="-39" rotate="true" tagg="tension-protocol" text="nP" y="0"/>
+                                <input size="9" x="5" rotate="true" tagg="label" text="20A" y="-1"/>
+                                <input size="9" x="-19" rotate="true" tagg="tension-protocol" text="n" y="25"/>
+                                <terminal x="0" y="30" orientation="s"/>
+                                <terminal x="0" y="-30" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="arei_circuit_breaker.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="36" width="60" height="70" orientation="dyyy" hotspot_x="29" type="element">
+                            <uuid uuid="{94500562-60a8-46cc-89fe-10f8e53c771e}"/>
+                            <names>
+                                <name lang="en">Residual-current circuit breaker</name>
+                                <name lang="nl">Differentieel</name>
+                                <name lang="fr">Disjoncteur de terre à relais</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" x1="0" end2="none" length1="1.5" y1="-30" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x1="0" end2="none" length1="1.5" y1="20" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="-20" end2="none" length1="1.5" y1="-20" antialias="false"/>
+                                <polygon x3="-24" x6="-16" x2="-20" x4="-20" y5="-12" y6="-12" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-10" x1="-16" x5="-16" y4="-20" y1="-12" y3="-18" antialias="false"/>
+                                <line x2="-4" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3" x1="-15" end2="none" length1="1.5" y1="3" antialias="false"/>
+                                <polygon x3="17" x2="13" x4="9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-25" x1="9" y4="-16" y1="-16" y3="-16" antialias="false"/>
+                                <text size="12" x="19" text="I" y="-15.5"/>
+                                <input size="9" x="-39" rotate="true" tagg="tension-protocol" text="nP" y="0"/>
+                                <input size="9" x="5" rotate="true" tagg="label" text="40A" y="7"/>
+                                <input size="9" x="-19" rotate="true" tagg="tension-protocol" text="n" y="25"/>
+                                <input size="9" x="4.6" rotate="true" tagg="tension-protocol" text="300mA" y="-7"/>
+                                <terminal x="0" y="30" orientation="s"/>
+                                <terminal x="0" y="-30" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                    <element name="arei_fuse.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="34" width="20" height="70" orientation="dyyy" hotspot_x="10" type="element">
+                            <uuid uuid="{7610d346-9c32-4544-8e95-2dd3075e7d24}"/>
+                            <names>
+                                <name lang="en">Fuse</name>
+                                <name lang="nl">Smeltveiligheid</name>
+                                <name lang="fr">Coupe-circuit à fusible</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <rect x="0" width="6" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-20" height="40" antialias="false"/>
+                                <rect x="-6" width="6" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" height="40" antialias="false"/>
+                                <input size="9" x="-39" rotate="true" tagg="label" text="20A" y="-1"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-21" x1="0" end2="none" length1="1.5" y1="-30" antialias="false"/>
+                                <line x2="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" x1="0" end2="none" length1="1.5" y1="30" antialias="false"/>
+                                <terminal x="0" y="30" orientation="s"/>
+                                <terminal x="0" y="-30" orientation="n"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+                <category name="arei_consumption_appliances">
+                    <names>
+                        <name lang="en">Consumption appliances</name>
+                        <name lang="fr">Appareils d'utilisation</name>
+                        <name lang="nl">Verbruikstoestellen</name>
+                    </names>
+                    <element name="arei_kwh_meter.elmt">
+                        <definition version="0.60" link_type="simple" hotspot_y="24" width="50" height="50" orientation="dyyy" hotspot_x="24" type="element">
+                            <uuid uuid="{767e221e-9be8-445c-9ac5-64146ea5011f}"/>
+                            <names>
+                                <name lang="fr">Compteur kWh</name>
+                                <name lang="nl">kWh-teller</name>
+                                <name lang="en">kWh meter</name>
+                            </names>
+                            <informations>[NL]
+Dit gratis element werd ontworpen door ShadowHunter en werd gedownload van www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Dit element wordt aangeboden zoals het is en zonder enige garantie. ShadowHunter kan niet aansprakelijk worden gesteld voor rechtstreekse of onrechtstreekse schade die ontstaat uit het gebruik van dit element. Het gebruik, wijzigingen en de integratie van dit element in schema’s is toegestaan zonder enige voorwaarden, ongeacht het uiteindelijke doel of vergunningstype van het schema. Bij herdistributie van dit element mag deze licentie-informatie niet worden verwijderd. Contact: info@shadowhunter.co.uk 
+
+[FR]
+Cet élément gratuit a été conçu par ShadowHunter et téléchargé depuis www.shadowhunter.co.uk , www.shadowhunter.be of www.arei-rgie.be. Cet élément est fournie telle quelle et sans la moindre garantie. Shadowhunter ne peut pas être tenue responsable de dommages directs ou indirects résultant de l'utilisation de cet élément. L'utilisation, la modification et l'intégration de cet élément dans des schémas électriques est autorisée sans condition, quelle que soit la licence finale des schémas. Lors de la redistribution de cet élément, ces informations de licence ne peuvent jamais être supprimées.
+Contact: info@shadowhunter.co.uk
+
+[EN]
+This free element was designed by ShadowHunter and downloaded from www.shadowhunter.co.uk,  www.shadowhunter.be or www.arei-rgie.be. This element is provided as is and comes without any warranty. Shadowhunter be cannot be held liable for direct or indirect damages resulting from the use of this element. The usage, the modification and the integration of this element into diagrams is allowed without any condition, whatever the final license or purpose of the diagrams is. This license information may not be removed upon redistribution. Contact: info@shadowhunter.co.uk</informations>
+                            <description>
+                                <input x="-10" size="9" rotate="true" tagg="label" text="" y="30"/>
+                                <rect x="-20" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" y="-20" antialias="false"/>
+                                <line x2="20" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" x1="-20" end2="none" length1="1.5" y1="-6" antialias="false"/>
+                                <text x="-11.4277" size="9" text="kWh" y="11.4506"/>
+                                <terminal x="0" y="-20" orientation="n"/>
+                                <terminal x="20" y="0" orientation="e"/>
+                                <terminal x="-20" y="0" orientation="w"/>
+                                <terminal x="0" y="20" orientation="s"/>
+                            </description>
+                        </definition>
+                    </element>
+                </category>
+            </category>
         </category>
     </collection>
 </project>
